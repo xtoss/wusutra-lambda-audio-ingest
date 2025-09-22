@@ -1,0 +1,19 @@
+# AWS Lambda Audio Ingest Dependencies
+# These packages are required for the Lambda function
+
+boto3>=1.26.0
+# AWS SDK for Python - S3 operations and other AWS services
+
+# Note: The following packages are included in AWS Lambda Python runtime:
+# - json (built-in)
+# - base64 (built-in) 
+# - os (built-in)
+# - subprocess (built-in)
+# - tempfile (built-in)
+# - datetime (built-in)
+# - urllib.parse (built-in)
+# - re (built-in)
+
+# For local development/testing only:
+# pytest>=7.0.0
+# moto>=4.0.0  # AWS service mocking

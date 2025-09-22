@@ -1,0 +1,102 @@
+# AWS Lambda Deployment Files
+*.zip
+function.zip
+layer.zip
+ffmpeg-layer.zip
+
+# Local Environment Configuration (contains sensitive data)
+env-local.sh
+.env
+.env.local
+.env.production
+.env.development
+
+# AWS Credentials and Config
+.aws/
+aws-config.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# SAM/CDK deployment artifacts
+.aws-sam/
+cdk.out/
+*.template
+template.yaml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Test files
+test-audio.*
+sample-*
+
+# Personal notes and docs
+NOTES.md
+TODO.md
+.personal/
